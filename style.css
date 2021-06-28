@@ -1,0 +1,198 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  /* Primary */
+  --veryDarkMagenta: hsl(300, 43%, 22%);
+  --SoftPink: hsl(333, 80%, 67%);
+  /* Neutral */
+  --darkGrayishMagenta: hsl(303, 10%, 53%);
+  --light-GrayishMagenta: hsl(300, 24%, 96%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  font-size: 1.5rem;
+}
+
+.container {
+  margin: 6rem;
+  font-family: "Spartan", sans-serif;
+}
+
+.section-one {
+  max-width: 25rem;
+  display: inline-block;
+  width: 80rem;
+}
+
+.section-one h1 {
+  color: var(--veryDarkMagenta);
+  font-weight: 700;
+  width: 25rem;
+}
+
+.section-one p {
+  width: 30rem;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.section-two {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--darkGrayishMagenta);
+  display: inline-block;
+  position: relative;
+  left: 15rem;
+  bottom: 1rem;
+  max-width: 40rem;
+}
+
+.section-two .one {
+  background-color: var(--light-GrayishMagenta);
+  margin: 1rem;
+  border-radius: 0.5rem;
+  height: 3rem;
+  max-width: 27rem;
+}
+
+.section-two .one img {
+  position: relative;
+  width: 1.2rem;
+  margin: 0.2rem;
+  top: 0.3rem;
+}
+
+.section-two .one .img {
+  display: inline-block;
+  margin-left: 1rem;
+  margin-top: 0.3rem;
+}
+
+.section-two .one p {
+  display: inline-block;
+  margin-left: 1rem;
+  position: relative;
+}
+
+.section-two .two {
+  background-color: var(--light-GrayishMagenta);
+  margin: 1rem;
+  margin-left: 4rem;
+  border-radius: 0.5rem;
+  height: 3rem;
+  max-width: 28rem;
+}
+
+.section-two .two img {
+  position: relative;
+  width: 1.2rem;
+  margin: 0.2rem;
+  top: 0.3rem;
+}
+
+.section-two .two .img {
+  display: inline-block;
+  margin-left: 1rem;
+  margin-top: 0.3rem;
+}
+
+.section-two .two p {
+  display: inline-block;
+  margin-left: 1rem;
+  position: relative;
+}
+
+.section-two .three {
+  background-color: var(--light-GrayishMagenta);
+  margin: 1rem;
+  margin-left: 8rem;
+  border-radius: 0.5rem;
+  height: 3rem;
+  width: 27rem;
+}
+
+.section-two .three img {
+  position: relative;
+  width: 1.2rem;
+  margin: 0.2rem;
+  top: 0.3rem;
+}
+
+.section-two .three .img {
+  display: inline-block;
+  margin-left: 1rem;
+  margin-top: 0.3rem;
+}
+
+.section-two .three p {
+  display: inline-block;
+  margin-left: 1rem;
+  position: relative;
+}
+
+.section-three {
+  margin-top: 3rem;
+  position: absolute;
+}
+
+.section-three .card {
+  background-color: var(--veryDarkMagenta);
+  display: inline-block;
+  border-radius: 0.5rem;
+  padding: 20px;
+  max-width: 25rem;
+  max-height: 20rem;
+}
+
+.section-three .card img {
+  border-radius: 50%;
+  position: absolute;
+  width: 3rem;
+  display: inline-block;
+}
+
+.section-three .card h2 {
+  color: var(--white);
+  font-size: 1rem;
+  position: relative;
+  left: 5rem;
+  top: 0.3rem;
+}
+
+.section-three .card h2 span {
+  display: block;
+  color: var(--SoftPink);
+  font-weight: 400;
+}
+
+.section-three .card p {
+  color: var(--white);
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-top: 2rem;
+  line-height: 1.5rem;
+}
+
+.section-three .card-two {
+  top: 1rem;
+  left: 1.5rem;
+  position: relative;
+}
+
+.section-three .card-three {
+  top: 2rem;
+  left: 3rem;
+  position: relative;
+}
+/*# sourceMappingURL=style.css.map */

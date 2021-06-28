@@ -1,0 +1,17 @@
+.section-one {
+  max-width: 25rem;
+  display: inline-block;
+
+  width: 80rem;
+  h1 {
+    color: var(--veryDarkMagenta);
+    font-weight: 700;
+    width: 25rem;
+  }
+  p {
+    width: 30rem;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+}

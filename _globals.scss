@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  /* Primary */
+  --veryDarkMagenta: hsl(300, 43%, 22%);
+  --SoftPink: hsl(333, 80%, 67%);
+  /* Neutral */
+  --darkGrayishMagenta: hsl(303, 10%, 53%);
+  --light-GrayishMagenta: hsl(300, 24%, 96%);
+  --white: hsl(0, 0%, 100%);
+}
+body {
+  font-size: 1.5rem;
+}
+.container {
+  margin: 6rem;
+  font-family: "Spartan", sans-serif;
+}
